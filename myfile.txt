@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#verify the file is available
+
+file= /
