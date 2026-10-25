@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f5f9;
+            color: #333;
+            text-align: center;
+        }
+
+        header {
+            background-color: #123c69;
+            color: white;
+            padding: 25px;
+        }
+
+        main {
+            padding: 50px 20px;
+        }
+
+        button {
+            background-color: #16803c;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #123c69;
+            color: white;
+            padding: 15px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>My first website published on the internet!</p>
+    </header>
+
+    <main>
+        <h2>About Me</h2>
+        <p>I am learning HTML, web hosting, and cloud deployment.</p>
+
+        <button onclick="showMessage()">Click Me</button>
+
+        <p id="message"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My First Website v1</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").textContent =
+                "Congratulations! Your website is working.";
+        }
+    </script>
+
+</body>
+</html>
